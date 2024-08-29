@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+
+    <h1>formulario aqui</h1>
+    <a href="index.html">principal</a><br><hr>
+    <form>
+        <!--CAMPO INPUT DO TIPO TEXT NOME-->
+        <label for="campo-nome">nome:</label>
+        <input id="campo-nome" type="text" placeholder="digite seu nome aqui" required>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TIPO TEXT SOBRENOME-->
+
+        <label for="campo-sobrenome">sobrenome:</label>
+        <input id="campo-sobrenome" type="text" 
+        placeholder="digite seu sobrenome" required>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TIPO SENHA-->
+
+        <label for="campo-senha">senha:</label>
+        <input id="campo-senha" type="password" placeholder="digite uma senha" required>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TIPO EMAIL-->
+
+        <label for="campo-email">email:</label>
+        <input id="campo-email" type="email" placeholder="digite um email" required> 
+
+        <br><br>
+           <h2>animal de estimação</h2>
+
+        <input id="dog" type="radio" name="animal" value="cachorro">
+        <label for="dog">cachorro</label>
+
+        <br><br>
+
+        <input id="cat" type="radio" name="animal" value="gato">
+        <label for="cat">gato</label>
+
+        <br><br>
+
+        <input id="bird" type="radio" name="animal" value="passarinho">
+        <label for="bird">passarinho</label>
+        
+        <br><br>
+
+        <h2>comida favorita</h2>
+        
+        <input id="opcao1" type="checkbox" name="opcao1" value="lasanha" >
+         <label for="opcao1">lasanha</label>
+
+         <br><br>
+         <input id="opcao2" type="checkbox" name="opcao2" value="camarao" >
+         <label for="opcao2">camarao</label>
+
+         <br><br>
+
+         <select name="cores">
+            <option selected disabled value="">selecione uma cor</option>
+            <option value="azul">azul</option>
+            <option value="preto">preto</option>
+            <option value="verde">verde</option>
+         </select> 
+         
+         <br><br>
+
+         <h2>digite sua reclamação</h2>
+         <textarea rows="15" cols="55" placeholder="sua reclamação"></textarea>
+
+         <br><br>
+
+
+        <!--CAMPO DO INPUT DO TIPO SUBMITE-->
+
+        <input type="submit" value="enviar formulario"><br><br>
+
+       
+
+     </form>
+     <button>clique aqui</button>
+
+</body>
+</html>
